@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+*{ 
+margin: 0px;
+padding:0px;
+border:0px;
+	
+}
+
+body{ 
+	background-color: rgba(99,10,10,1.00);
+	
+} 
+
+#contenedor {
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    border-width: 1px;	
+	/*border:1px solid rgba(0,0,0,1.00);*/
+	
+}
+#encabezado {
+    height: 140px;
+    background-image: url(img/images.jpg);    
+}
+#botonera {
+    height: 40px;
+    background-color: rgba(167,112,21,1.00);
+}
+#botonera ul {
+    width: 600px;
+	margin: auto;
+	/*border: 1px solid rgba(0,0,255,1.00)*/
+}
+#botonera ul li {
+    width: 98px;
+   /* border: 1px solid #7818A6;*/
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    line-height: 40px;
+}
+#botonera ul li a:hover {
+    color: rgba(243,243,243,1.00);
+    font-family: 16px;
+    font-weight: 600px;
+    font-size: 16px;
+}
+
+#centro {
+    height: 625px;
+    background-color: rgba(255,255,255,1.00);
+
+}
+#pie {
+    background-color: rgba(255,255,255,1.00);
+    color: rgba(12,77,122,1.00);
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 40px;		
+}
+
+
+#caja1 {
+    width: 590px;
+    height: 580px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 28px;
+    background-color: rgba(172,106,26,1.00);
+}
+#caja1 img {
+    margin: auto;
+    display: block;
+}
+
+#caja2 {
+    width: 315px;
+    height: 530px;
+    margin-top: 35px;
+    margin-right: 28px;
+    float: right;
+    background-color: rgba(40,98,208,1.00);	
+}
+
+#caja1 h1 {
+    color: rgba(0,0,0,1.00);
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: underline;	
+	margin-bottom: 10px;
+	margin-left: 8px;
+}
+
+#caja1 h2 {
+    color: rgba(0,0,0,1.00);
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;	
+	margin-bottom: 10px;
+	margin-left: 20px;
+	
+}
+
+#caja1 p {
+    color: rgba(0,0,0,1.00);
+    font-size: 12px;
+    line-height: 14px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;	
+	margin-left: 20px;
+	margin-right: 20px;
+    
+}
+
+
+#caja2 h3 {
+    color: rgba(0,0,0,1.00);
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+	margin-top: 11px;
+	margin-left: 14px;
+	margin-bottom: 13px;
+		
+}
+
+#caja2 p {
+    color: rgba(0,0,0,1.00);
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 15px;	
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	
+}
+
+
+#caja2 img {
+	 margin: auto;
+    display: block;
+}
